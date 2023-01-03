@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('./partials/head', { title : "Inicia Sesión" }) %>
+
+    <body>
+        <%- include('./partials/header') %>
+            <main>
+                <h1>
+                    <%= texto %>
+                </h1>
+                <form action="/admin" method="get">
+                    <div>
+                        <input type="text" id="user" name="user">
+                        <label for="user" >Ingrese el nombre de usuario</label>
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form>
+            </main>
+    </body>
+
+</html>

@@ -1,0 +1,42 @@
+header{
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+header .logo{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header nav{
+    width: 50%;
+}
+header .logo img{
+    width: 150px;
+}
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+header ul li{
+    margin: 0 10px;
+}
+header ul li a{
+    color: #ff872e;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+header ul li a:hover{
+    color: white;
+    font-size: 20px;
+    transition: all 0.5s;
+}
